@@ -64,3 +64,10 @@ def create(request):
     # 4. create.html을 랜더링
     # 9. crate. html을 랜더링
     return render(request, 'create.html', context)
+
+def delete(request, id):
+    article = Article.objects.get(id=id)
+    
+    article.delete()
+    
+    return redirect('articles:index')
