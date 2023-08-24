@@ -17,7 +17,7 @@
 ## 2. settings.py
 
 1. 앱등록
-2. 공용 teplates 공간 등록 ('DIRS')
+2. 공용 templates 공간 등록 ('DIRS')
 3. TIME_ZONE
 
 ## 3. Model
